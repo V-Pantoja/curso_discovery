@@ -5,8 +5,27 @@
     flex-direction: column;
 }
 
-h1 {
+.container header {
     margin: 8.4rem 0 2.4rem;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container header img {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 30px;
+
+    margin-left: 7px;
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
 }
 
 input {
