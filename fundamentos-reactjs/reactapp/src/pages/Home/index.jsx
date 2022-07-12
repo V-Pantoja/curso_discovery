@@ -40,6 +40,23 @@ export function Home() {
     })
   }, []);
 
+  // useEffect com async function e await:
+  /*
+    useEffect(() => {
+      async function fetchData() {
+        const response = await fetch('https://api.github.com/users/V-Pantoja');
+        const data = await response.json();
+        console.log("DADOS ===> ", data);
+
+        setUser({
+          name: data.name,
+          avatar: data.avatar_url,
+        });
+      }
+
+    }, []);
+  */
+
   return (
     <div className='container'>
       <header>
